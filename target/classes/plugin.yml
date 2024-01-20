@@ -1,0 +1,21 @@
+name: ProjectileKnockback
+version: '1.0'
+main: io.wdsj.projkb.ProjectileKnockback
+api-version: '1.13'
+authors:
+  - HaHaWTH
+folia-supported: true
+commands:
+  projectileknockback:
+    description: "Command for ProjectileKB"
+    usage: /projectileknockback
+    permission: projectilekb.reload
+    aliases:
+      - projkb
+      - pkb
+      - projectilekb
+permissions:
+  projectilekb.use:
+    default: true
+  projectilekb.reload:
+    default: op
